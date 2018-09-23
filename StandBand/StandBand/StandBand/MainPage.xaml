@@ -5,12 +5,37 @@
              x:Class="StandBand.MainPage">
 
     <StackLayout>
-        <Label Text="Home Page"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" />
-        <Button Text="Login"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand" />
+        <Label 
+            Text="Home Page"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Label 
+            Text="Username:"
+            FontSize="10"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Entry 
+            Placeholder="Username"
+            PlaceholderColor="LightSlateGray"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Label 
+            Text="Password:"
+            HorizontalOptions="Center"
+            FontSize="10"
+            VerticalOptions="CenterAndExpand" />
+        <Button 
+            Text="Login"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Button
+            Text="Sign Up"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Label
+            Text="FORGOT PASSWORD?"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
 </ContentPage>
