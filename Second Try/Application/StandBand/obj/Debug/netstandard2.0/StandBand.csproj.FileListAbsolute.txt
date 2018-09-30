@@ -1,0 +1,11 @@
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\bin\Debug\netstandard2.0\StandBand.deps.json
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\bin\Debug\netstandard2.0\StandBand.dll
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\bin\Debug\netstandard2.0\StandBand.pdb
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\StandBand.csprojAssemblyReference.cache
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\TodoList.xaml.g.cs
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\StandBand.csproj.CoreCompileInputs.cache
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\StandBand.AssemblyInfoInputs.cache
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\StandBand.AssemblyInfo.cs
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\StandBand.dll
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\StandBand\obj\Debug\netstandard2.0\StandBand.pdb
