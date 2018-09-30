@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StandBand"
+             x:Class="StandBand.LoginPage"
+             Title="Login">
+    <StackLayout>
+        <Label 
+            Text="Username:"
+            FontSize="10"
+            MinimumHeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Entry 
+            x:Name="username"
+            Placeholder="Username"
+            Scale=".5"
+            MinimumHeightRequest="50"
+            PlaceholderColor="LightSlateGray"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Label 
+            Text="Password:"
+            FontSize="10"
+            MinimumHeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Entry 
+            x:Name="password"
+            Placeholder="Password"
+            Scale=".5"
+            MinimumWidthRequest="200"
+            MinimumHeightRequest="50"
+            PlaceholderColor="LightSlateGray"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Button 
+            Text="Login"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" 
+            Clicked="LoginClicked" />
+        <Button
+            Text="Sign Up"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" 
+            Clicked="RegisterClicked" />
+        <Label
+            Text="FORGOT PASSWORD?"
+            FontSize="8"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
