@@ -9,42 +9,42 @@ using StandBandService.Models;
 
 namespace StandBandService.Controllers
 {
-    public class TodoItemController : TableController<TodoItem>
+    public class SongListItemController : TableController<SongListItem>
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
             base.Initialize(controllerContext);
             StandBandContext context = new StandBandContext();
-            DomainManager = new EntityDomainManager<TodoItem>(context, Request);
+            DomainManager = new EntityDomainManager<SongListItem>(context, Request);
         }
 
-        // GET tables/TodoItem
-        public IQueryable<TodoItem> GetAllTodoItems()
+        // GET tables/Item
+        public IQueryable<SongListItem> GetAllSongListItem()
         {
             return Query();
         }
 
-        // GET tables/TodoItem/48D68C86-6EA6-4C25-AA33-223FC9A27959
-        public SingleResult<TodoItem> GetTodoItem(string id)
+        // GET tables/Item/48D68C86-6EA6-4C25-AA33-223FC9A27959
+        public SingleResult<SongListItem> GetItem(string id)
         {
             return Lookup(id);
         }
 
-        // PATCH tables/TodoItem/48D68C86-6EA6-4C25-AA33-223FC9A27959
-        public Task<TodoItem> PatchTodoItem(string id, Delta<TodoItem> patch)
+        // PATCH tables/Item/48D68C86-6EA6-4C25-AA33-223FC9A27959
+        public Task<SongListItem> PatchItem(string id, Delta<SongListItem> patch)
         {
             return UpdateAsync(id, patch);
         }
 
-        // POST tables/TodoItem
-        public async Task<IHttpActionResult> PostTodoItem(TodoItem item)
+        // POST tables/Item
+        public async Task<IHttpActionResult> PostItem(SongListItem item)
         {
-            TodoItem current = await InsertAsync(item);
+            SongListItem current = await InsertAsync(item);
             return CreatedAtRoute("Tables", new { id = current.Id }, current);
         }
 
-        // DELETE tables/TodoItem/48D68C86-6EA6-4C25-AA33-223FC9A27959
-        public Task DeleteTodoItem(string id)
+        // DELETE tables/Item/48D68C86-6EA6-4C25-AA33-223FC9A27959
+        public Task DeleteItem(string id)
         {
             return DeleteAsync(id);
         }

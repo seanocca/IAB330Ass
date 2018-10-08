@@ -22,7 +22,10 @@ namespace StandBandService.Models
         {
         } 
 
-        public DbSet<TodoItem> TodoItems { get; set; }
+        public DbSet<EventItem> EventItem { get; set; }
+        public DbSet<SongItem> SongItem { get; set; }
+        public DbSet<BandItem> BandItem { get; set; }
+        public DbSet<SongListItem> SongListItem { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
