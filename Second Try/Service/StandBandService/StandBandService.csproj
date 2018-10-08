@@ -151,6 +151,7 @@
     <Compile Include="Controllers\SongItemController.cs" />
     <Compile Include="Controllers\EventItemController.cs" />
     <Compile Include="Controllers\SongListItemController.cs" />
+    <Compile Include="Controllers\UserItemController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DataObjects\BandItem.cs" />
     <Compile Include="DataObjects\EventItem.cs" />

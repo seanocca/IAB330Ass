@@ -9,37 +9,37 @@ using StandBandService.Models;
 
 namespace StandBandService.Controllers
 {
-    public class SongListItemController : TableController<SongListItem>
+    public class UserItemController : TableController<UserItem>
     {
         protected override void Initialize(HttpControllerContext controllerContext)
         {
             base.Initialize(controllerContext);
             StandBandContext context = new StandBandContext();
-            DomainManager = new EntityDomainManager<SongListItem>(context, Request);
+            DomainManager = new EntityDomainManager<UserItem>(context, Request);
         }
 
         // GET tables/Item
-        public IQueryable<SongListItem> GetAllSongListItem()
+        public IQueryable<UserItem> GetAllUserItem()
         {
             return Query();
         }
 
         // GET tables/Item/48D68C86-6EA6-4C25-AA33-223FC9A27959
-        public SingleResult<SongListItem> GetItem(string id)
+        public SingleResult<UserItem> GetItem(string id)
         {
             return Lookup(id);
         }
 
         // PATCH tables/Item/48D68C86-6EA6-4C25-AA33-223FC9A27959
-        public Task<SongListItem> PatchItem(string id, Delta<SongListItem> patch)
+        public Task<UserItem> PatchItem(string id, Delta<UserItem> patch)
         {
             return UpdateAsync(id, patch);
         }
 
         // POST tables/Item
-        public async Task<IHttpActionResult> PostItem(SongListItem item)
+        public async Task<IHttpActionResult> PostItem(UserItem item)
         {
-            SongListItem current = await InsertAsync(item);
+            UserItem current = await InsertAsync(item);
             return CreatedAtRoute("Tables", new { id = current.Id }, current);
         }
 
