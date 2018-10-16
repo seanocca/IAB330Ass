@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StandBand.Pages;
+using System;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace StandBand
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new TodoList();
+			MainPage = new Login();
 		}
 
 		protected override void OnStart ()

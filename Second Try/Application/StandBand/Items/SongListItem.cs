@@ -9,7 +9,6 @@ namespace StandBand.Items
     {
         string id;
         string name;
-        List<SongItem> songList;
 
         [JsonProperty(PropertyName = "id")]
         public string Id
@@ -28,12 +27,11 @@ namespace StandBand.Items
         [JsonProperty(PropertyName = "songList")]
         public string SongList
         {
-            get { return songList.ToString(); }
-            set { songList.Add(song); }
+            get; set;
         }
 
         [Version]
         public string Version { get; set; }
-        public SongItem song { get; set; }
+        public SongItem Song { get; set; }
     }
 }

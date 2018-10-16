@@ -9,7 +9,7 @@
         <PackageReference Include="Microsoft.Azure.Mobile.Client.SQLiteStore" Version="4.0.2" />
     </ItemGroup>
     <ItemGroup>
-      <Compile Update="Pages\Host\HostHome.xaml.cs">
+      <Compile Update="Pages\HostHome.xaml.cs">
         <DependentUpon>HostHome.xaml</DependentUpon>
       </Compile>
     </ItemGroup>
@@ -17,28 +17,28 @@
         <EmbeddedResource Update="Pages\Event.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
-        <EmbeddedResource Update="Pages\Guest\GuestHome.xaml">
+        <EmbeddedResource Update="Pages\GuestHome.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
-        <EmbeddedResource Update="Pages\Guest\JoinEvent.xaml">
+        <EmbeddedResource Update="Pages\JoinEvent.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
-        <EmbeddedResource Update="Pages\Host\CreateEvent.xaml">
+        <EmbeddedResource Update="Pages\CreateEvent.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
-        <EmbeddedResource Update="Pages\Host\HostHome.xaml">
+        <EmbeddedResource Update="Pages\HostHome.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
-        <EmbeddedResource Update="Pages\Startup\Instance.xaml">
+        <EmbeddedResource Update="Pages\Instance.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
-        <EmbeddedResource Update="Pages\Startup\Login.xaml">
+        <EmbeddedResource Update="Pages\Login.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
         <EmbeddedResource Update="Pages\Settings.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
-        <EmbeddedResource Update="Pages\Startup\SignUp.xaml">
+        <EmbeddedResource Update="Pages\SignUp.xaml">
           <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
         </EmbeddedResource>
         <EmbeddedResource Update="Pages\TodoList.xaml">

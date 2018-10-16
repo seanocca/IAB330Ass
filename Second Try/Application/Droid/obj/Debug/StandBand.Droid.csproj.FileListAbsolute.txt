@@ -90,6 +90,7 @@ C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\obj\Debug
 C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\bin\Debug\StandBand.Droid.dll
+C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\obj\Debug\linksrc\StandBand.pdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\obj\Debug\linksrc\StandBand.Droid.dll.mdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Second Try\Application\Droid\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
