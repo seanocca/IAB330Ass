@@ -8,14 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("StandBand.iOS.MainPage.xaml", "MainPage.xaml", typeof(global::StandBand.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("StandBand.Droid.LoginPage.xaml", "LoginPage.xaml", typeof(global::StandBand.LoginPage))]
 
 namespace StandBand {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\seano\\Documents\\GitHub\\IAB330Ass\\Third Try\\StandBand\\StandBand\\StandBand" +
-        "\\MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+        "\\LoginPage.xaml")]
+    public partial class LoginPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry username;
@@ -34,7 +34,7 @@ namespace StandBand {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(LoginPage));
             username = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "username");
             password = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "password");
             login = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "login");

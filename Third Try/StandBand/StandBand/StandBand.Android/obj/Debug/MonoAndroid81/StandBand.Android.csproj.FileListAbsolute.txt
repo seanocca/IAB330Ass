@@ -1,10 +1,10 @@
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\res.flag
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\StandBand.Android.dll
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\StandBand.Android.pdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\com.companyname.StandBand.apk
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\com.companyname.StandBand-Signed.apk
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\res.flag
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\App.xaml.g.cs
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\MainPage.xaml.g.cs
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\LoginPage.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\PasswordPage.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\InstancePage.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\SignUpPage.xaml.g.cs
@@ -16,6 +16,7 @@ C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBan
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\HostHome.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\HostCreateNew.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\HostSettings.xaml.g.cs
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\HostEvent.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\StandBand.Android.csproj.CoreCompileInputs.cache
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\XamlC.stamp
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\StandBand.Android.dll
@@ -157,7 +158,6 @@ C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBan
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\StandBand.Android.csprojAssemblyReference.cache
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\HostEvent.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\StandBand.Android.dll
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\linksrc\StandBand.Android.dll.mdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb

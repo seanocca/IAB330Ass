@@ -16,5 +16,10 @@ namespace StandBand
 		{
 			InitializeComponent ();
 		}
+
+        public void OnRegister(object Sender, EventArgs args)
+        {
+            App.Current.MainPage = new LoginPage();
+        }
 	}
 }

@@ -22,7 +22,7 @@ namespace StandBand
             var username = forgotUsername.Text;
             if (username == "the_band") 
             {
-                App.Current.MainPage = new MainPage();
+                App.Current.MainPage = new LoginPage();
             }
         }
 	}

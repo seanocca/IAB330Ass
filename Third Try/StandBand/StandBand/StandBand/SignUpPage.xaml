@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StandBand.SignUpPage">
+             x:Class="StandBand.SignUpPage" Title="Register">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Register Please"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+            <Label Text="Register" FontSize="Large" TextColor="Blue" HorizontalOptions="Center" />
+            <Label Text="Username" HorizontalOptions="Center" />
+            <Entry Placeholder="Username" x:Name="username" />
+            <Label Text="Email Address" HorizontalOptions="Center" />
+            <Entry Placeholder="Email Address" x:Name="email" />
+            <Label Text="Password" HorizontalOptions="Center" />
+            <Entry Placeholder="Password" x:Name="password" />
+            <Label Text="Confirm Password" HorizontalOptions="Center" />
+            <Entry Placeholder="Confirm Password" x:Name="c_password" />
+            <Button Text="Register" HorizontalOptions="Center" Clicked="OnRegister"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

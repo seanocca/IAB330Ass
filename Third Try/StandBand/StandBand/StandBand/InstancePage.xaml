@@ -1,20 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StandBand.InstancePage">
+             x:Class="StandBand.InstancePage" Title="Host Or Guest">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Please Choose to be a Guest and a Host "
-                    VerticalOptions="Center" 
-                    HorizontalOptions="CenterAndExpand" />
-            <Button Text="Guest"
-                    VerticalOptions="Center" 
-                    HorizontalOptions="CenterAndExpand" 
-                    Clicked="OnGuestClicked" />
-            <Button Text="Host"
-                    VerticalOptions="Center" 
-                    HorizontalOptions="CenterAndExpand" 
-                    Clicked="OnHostClicked"/>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="Please Choose to be a" />
+            <Label Text="Guest or a Host" />
+            <Button Text="Guest" Clicked="OnGuestClicked"  HorizontalOptions="Center" />
+            <Button Text="Host" Clicked="OnHostClicked" HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
