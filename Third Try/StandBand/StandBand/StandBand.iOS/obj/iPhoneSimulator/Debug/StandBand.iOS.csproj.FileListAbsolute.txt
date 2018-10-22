@@ -47,7 +47,6 @@ C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBan
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\optimized\
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\StandBand.iOS.csprojAssemblyReference.cache
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\App.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\LoginPage.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\PasswordPage.xaml.g.cs

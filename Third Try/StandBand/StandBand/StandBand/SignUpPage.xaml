@@ -2,18 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StandBand.SignUpPage" Title="Register">
-    <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
-            <Label Text="Register" FontSize="Large" TextColor="Blue" HorizontalOptions="Center" />
-            <Label Text="Username" HorizontalOptions="Center" />
-            <Entry Placeholder="Username" x:Name="username" />
-            <Label Text="Email Address" HorizontalOptions="Center" />
-            <Entry Placeholder="Email Address" x:Name="email" />
-            <Label Text="Password" HorizontalOptions="Center" />
-            <Entry Placeholder="Password" x:Name="password" />
-            <Label Text="Confirm Password" HorizontalOptions="Center" />
-            <Entry Placeholder="Confirm Password" x:Name="c_password" />
-            <Button Text="Register" HorizontalOptions="Center" Clicked="OnRegister"/>
+    <ScrollView>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Padding="0">
+            <Label Text="Register" FontSize="Medium" TextColor="Blue" HorizontalOptions="Center" />
+            <Label Text="Username" HorizontalOptions="Center" FontSize="Micro" />
+            <Entry Placeholder="Username" x:Name="username" FontSize="Micro" HeightRequest="10" />
+            <Label Text="Email Address" HorizontalOptions="Center" FontSize="Micro" />
+            <Entry Placeholder="sample@email.com" x:Name="email" FontSize="Micro" />
+            <Label Text="Confirm Email Address" HorizontalOptions="Center" FontSize="Micro" />
+            <Entry x:Name="c_email" Placeholder="sample@email.com" FontSize="Micro" />
+            <Label x:Name="email_error" FontSize="Micro" HeightRequest="5" />
+            <Label Text="Password" HorizontalOptions="Center" FontSize="Micro" />
+            <Entry Placeholder="Password" x:Name="password" FontSize="Micro" />
+            <Label Text="Confirm Password" HorizontalOptions="Center" FontSize="Micro" />
+            <Entry Placeholder="Confirm Password" x:Name="c_password" FontSize="Micro" />
+            <Label x:Name="password_error" FontSize="Micro" HeightRequest="5" />
+            <Button Text="Register" HorizontalOptions="Center" Clicked="OnRegister" FontSize="Micro" />
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>
