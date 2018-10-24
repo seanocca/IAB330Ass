@@ -22,8 +22,9 @@ namespace StandBand
             string uname = username.Text;
             string pword = password.Text;
 
-            if (Global.UserInformation.Contains(new User() { Username = uname, Password = pword }))
+            if ((uname == "the_band" || uname == "the_guest") & pword == "password")
             {
+                Global.UserName = uname;
                 App.Current.MainPage = new InstancePage();
             }
         }
@@ -41,17 +42,6 @@ namespace StandBand
 
     public static class Global
     {
-        public static List<User> UserInformation = new List<User> {
-            new User() { Username = "the_band", Email = "sample@email.com", Password = "password" },
-        };
-    }
-
-    public class User
-    {
-        public string Username { get; set; }
-
-        public string Email { get; set; }
-
-        public string Password { get; set; }
+        public static String UserName;
     }
 }

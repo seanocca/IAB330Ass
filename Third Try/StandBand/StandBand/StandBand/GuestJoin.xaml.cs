@@ -16,5 +16,10 @@ namespace StandBand
 		{
 			InitializeComponent ();
 		}
-	}
+
+        public async void OnJoin(object Sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new GuestEvent());
+        }
+    }
 }

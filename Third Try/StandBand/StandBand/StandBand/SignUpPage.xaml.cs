@@ -19,9 +19,9 @@ namespace StandBand
 
         public void OnRegister(object Sender, EventArgs args)
         {
-            var uname = username.Text;
-            var emailAddress = "";
-            var pass = "";
+            string uname = username.Text;
+            string emailAddress = "";
+            string pass = "";
 
             if (email.Text == c_email.Text)
             {
@@ -41,10 +41,8 @@ namespace StandBand
                 password_error.Text = "Password's Do Not Match!";
             }
 
-            if (!Global.UserInformation.Contains(new User() { Username = uname, Email = emailAddress }) & emailAddress != "" & pass != "" & uname != "")
+            if (emailAddress != "" & pass != "" & uname != "")
             {
-                User user = new User() { Username = uname, Email = emailAddress, Password = pass };
-                Global.UserInformation.Add(user);
                 App.Current.MainPage = new LoginPage();
             }
         }

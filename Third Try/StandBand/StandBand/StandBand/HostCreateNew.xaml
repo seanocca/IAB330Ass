@@ -1,11 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StandBand.HostCreateNew" >
+             x:Class="StandBand.HostCreateNew" Title="Create New Event">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-            <Label Text="Create New" />
-            <Button Text="Join" Clicked="OnCreateNew" />
+            <Label Text="*Name of Event:" />
+            <Entry Placeholder="Name of Event" x:Name="name"/>
+            <Label Text="*Set List:" />
+            <Picker x:Name="setList" >
+                <Picker.Items>
+                    <x:String>First List</x:String>
+                    <x:String>Favourites</x:String>
+                    <x:String>Pub</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="*Location:" />
+            <Entry Placeholder="Location" x:Name="location"/>
+            <Button Text="Create Event" Clicked="OnCreateNew" />
+            <Label x:Name="errorLabel" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

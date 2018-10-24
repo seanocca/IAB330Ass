@@ -3,8 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StandBand.GuestJoin" Title="Join Event" Icon="baseline_create_black.png">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-            <Label Text="Create New" />
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+        
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Label Text="Find Events:" Grid.Row="0" Grid.Column="0" />
+                <Entry Placeholder="Search For Events" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="First Event" Grid.Row="1" Grid.Column="0"/>
+                <Button Text="Join" Grid.Row="1" Grid.Column="1" Clicked="OnJoin"/>
+                <Label Text="First Event" Grid.Row="2" Grid.Column="0"/>
+                <Button Text="Join" Grid.Row="2" Grid.Column="1" Clicked="OnJoin"/>
+                <Label Text="First Event" Grid.Row="3" Grid.Column="0"/>
+                <Button Text="Join" Grid.Row="3" Grid.Column="1" Clicked="OnJoin"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

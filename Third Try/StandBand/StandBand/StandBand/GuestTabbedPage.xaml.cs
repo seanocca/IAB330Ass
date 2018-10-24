@@ -12,9 +12,9 @@ namespace StandBand
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class GuestTabbedPage : TabbedPage
 	{
-		public GuestTabbedPage ()
-		{
-			InitializeComponent ();
-		}
+        public GuestTabbedPage()
+        {
+            InitializeComponent();
+        }
 	}
 }

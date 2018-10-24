@@ -23,7 +23,7 @@ namespace StandBand
 
             if (!(username == ""))
             {
-                if (Global.UserInformation.Contains(new User() { Username = username }))
+                if (username == "the_band" || username == "the_guest")
                 {
                     Navigation.PopAsync();
                 }

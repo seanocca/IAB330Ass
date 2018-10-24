@@ -15,6 +15,9 @@ namespace StandBand
 		public HostEvent ()
 		{
 			InitializeComponent ();
+            Title = HostCreateNew.event_name;
 		}
+
+
 	}
 }
