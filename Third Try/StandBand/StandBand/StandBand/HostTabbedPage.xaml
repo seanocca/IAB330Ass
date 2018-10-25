@@ -4,11 +4,9 @@
             xmlns:local="clr-namespace:StandBand"
              x:Class="StandBand.HostTabbedPage">
 
-    <NavigationPage Title="Create New" Icon="baseline_create_black.png">
-        <x:Arguments>
-            <local:HostCreateNew></local:HostCreateNew>
-        </x:Arguments>
-    </NavigationPage>
+    <x:Arguments>
+        <local:HostCreateNew></local:HostCreateNew>
+    </x:Arguments>
 
     <local:HostSettings></local:HostSettings>
 

@@ -18,18 +18,18 @@ namespace StandBand
 		}
 
         public void OnForgotPassword(object Sender, EventArgs args)
-        {
-            string username = forgotUsername.Text;
-
-            if (!(username == ""))
+        { 
+            if (forgotUsername.Text != "")
             {
+                string username = forgotUsername.Text;
+
                 if (username == "the_band" || username == "the_guest")
                 {
-                    Navigation.PopAsync();
+                    App.Current.MainPage = new LoginPage();
                 }
                 else
                 {
-                    usernameError.Text = "This user doesn't exist!";
+                    usernameError.Text = "Please Enter a Valid Username!";
                 }
             }
         }

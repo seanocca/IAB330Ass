@@ -16,8 +16,10 @@ namespace StandBand
 
 		public HostCreateNew ()
 		{
-			InitializeComponent ();
-		}
+            InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(new HostEvent(), true);
+        }
 
         async void OnCreateNew(object Sender, EventArgs args)
         {

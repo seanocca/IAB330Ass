@@ -23,13 +23,13 @@ namespace StandBand
             string emailAddress = "";
             string pass = "";
 
-            if (email.Text == c_email.Text)
+            if (email.Text == c_email.Text & email.Text != "")
             {
                 emailAddress = email.Text;
             }
             else
             {
-                email_error.Text = "Email Address' Do Not Match!";
+                register_error.Text = "Email Address' Do Not Match!";
             }
 
             if (password.Text == c_password.Text & password.Text != "")
@@ -38,10 +38,14 @@ namespace StandBand
             }
             else
             {
-                password_error.Text = "Password's Do Not Match!";
+                register_error.Text = "Password's Do Not Match!";
             }
 
-            if (emailAddress != "" & pass != "" & uname != "")
+            if (email.Text == "" || password.Text == "" || uname == "")
+            {
+                register_error.Text = "Please Fill in All Fields!";
+            } 
+            else
             {
                 App.Current.MainPage = new LoginPage();
             }

@@ -15,6 +15,7 @@ namespace StandBand
         public GuestTabbedPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 	}
 }

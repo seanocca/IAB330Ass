@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="StandBand.HostEvent">
+             x:Class="StandBand.HostEvent" Title="Event">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black" >
+        <StackLayout>
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="150" />
-                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="50" />
                 </Grid.RowDefinitions>
+                <StackLayout BackgroundColor="White">
+                    <Label Text="Current Song:" Grid.Row="0" Grid.Column="0" FontSize="Micro" />
+                    <Label Text="Wonderwall" Grid.Row="0" Grid.Column="0" FontSize="Medium" />
+                    <Label Text="Oasis" Grid.Row="0" Grid.Column="0" FontSize="Micro" />
+                </StackLayout>
             </Grid>
-            <StackLayout BackgroundColor="White">
-                <Label Text="Current Song:" Grid.Row="0" Grid.Column="0" FontSize="Micro"/>
-                <Label Text="Wonderwall" Grid.Row="0" Grid.Column="0" FontSize="Medium"/>
-                <Label Text="Oasis" Grid.Row="0" Grid.Column="0" FontSize="Micro"/>
-                <Image Grid.Row="0" Grid.Column="1"/>
-            </StackLayout>
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="150" />
-                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="35" />
@@ -31,18 +31,25 @@
                     <RowDefinition Height="40" />
                     <RowDefinition Height="80" />
                 </Grid.RowDefinitions>
+                <ScrollView>
+                    <StackLayout>
+                        <Label Text="Wonderwall" Grid.Row="0" Grid.Column="0" FontSize="Small" />
+                        <Label Text="Oasis" Grid.Row="0" Grid.Column="0" FontSize="Micro" />
+                        <Label Text="Votes:" Grid.Row="0" Grid.Column="1" FontSize="Micro" />
+                        <Label Text="4" Grid.Row="0" Grid.Column="1" FontSize="Micro" x:Name="wonderwall" />
+                
+                        <Label Text="Living on a Prayer" Grid.Row="1" Grid.Column="0" FontSize="Small" />
+                        <Label Text="Jon Bovi" Grid.Row="1" Grid.Column="0" FontSize="Micro" />
+                        <Label Text="Votes:" Grid.Row="1" Grid.Column="1" FontSize="Micro" />
+                        <Label Text="1" Grid.Row="1" Grid.Column="1" FontSize="Micro" x:Name="living_on_a_prayer" />
+                
+                        <Label Text="I Love Rock 'n' Roll" Grid.Row="2" Grid.Column="0" FontSize="Small" />
+                        <Label Text="Joan Jett" Grid.Row="2" Grid.Column="0" FontSize="Micro" />
+                        <Label Text="Votes:" Grid.Row="2" Grid.Column="1" FontSize="Micro" />
+                        <Label Text="0" Grid.Row="2" Grid.Column="1" FontSize="Micro" x:Name="i_love_rock_n_roll" />
+                    </StackLayout>
+                </ScrollView>
             </Grid>
-            <StackLayout BackgroundColor="White" >
-                <Label Text="Wonderwall" Grid.Row="0" Grid.Column="0" FontSize="Small" />
-                <Label Text="Oasis" Grid.Row="0" Grid.Column="0" FontSize="Micro" />
-                <Image Grid.Row="0" Grid.Column="1"/>
-                <Label Text="Living on a Prayer" Grid.Row="1" Grid.Column="0" FontSize="Small" />
-                <Label Text="Jon Bovi" Grid.Row="1" Grid.Column="0" FontSize="Micro" />
-                <Image Grid.Row="1" Grid.Column="1"/>
-                <Label Text="I Love Rock 'n' Roll" Grid.Row="2" Grid.Column="0" FontSize="Small" />
-                <Label Text="Joan Jett" Grid.Row="2" Grid.Column="0" FontSize="Micro" />
-                <Image Grid.Row="2" Grid.Column="1"/>
-            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

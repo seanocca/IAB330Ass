@@ -6,9 +6,7 @@
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <Label Text="Stand Band" FontSize="Large" TextColor="Blue" HorizontalOptions="Center" />
-            <Label Text="Username" HorizontalOptions="Center" />
             <Entry Placeholder="Username" x:Name="username" />
-            <Label Text="Password" HorizontalOptions="Center" />
             <Entry Placeholder="Password" x:Name="password" IsPassword="True" />
             <Button Text="Login" x:Name="login" Clicked="OnLogin" HorizontalOptions="Center" />
             <Button Text="Register" x:Name="signup" Clicked="OnRegister" HorizontalOptions="Center" />

@@ -16,8 +16,8 @@ namespace StandBand
 		{
 			InitializeComponent ();
             Title = HostCreateNew.event_name;
-		}
-
-
-	}
+            NavigationPage.SetHasBackButton(this, true);
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+    }
 }

@@ -15,6 +15,6 @@ namespace StandBand
 		public HostTabbedPage ()
 		{
             InitializeComponent();
-		}
+        }
 	}
 }
