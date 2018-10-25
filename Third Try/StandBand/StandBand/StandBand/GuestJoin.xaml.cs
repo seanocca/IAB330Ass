@@ -15,12 +15,11 @@ namespace StandBand
 		public GuestJoin ()
 		{
 			InitializeComponent ();
-            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         public async void OnJoin(object Sender, EventArgs args)
         {
-            await Navigation.PushModalAsync(new GuestEvent());
+            await Navigation.PushAsync(new GuestEvent());
         }
     }
 }

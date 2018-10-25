@@ -3,10 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:StandBand"
              x:Class="StandBand.HostTabbedPage">
-
-    <x:Arguments>
-        <local:HostCreateNew></local:HostCreateNew>
-    </x:Arguments>
+    <NavigationPage>
+        <x:Arguments>
+            <local:HostCreateNew></local:HostCreateNew>
+        </x:Arguments>
+    </NavigationPage>
 
     <local:HostSettings></local:HostSettings>
 
