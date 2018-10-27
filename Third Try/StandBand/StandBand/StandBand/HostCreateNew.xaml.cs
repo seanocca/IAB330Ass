@@ -28,11 +28,11 @@ namespace StandBand
             string local = location.Text;
             if (event_name != null & list != null & local != null)
             {
-                await Navigation.PushAsync(new HostEvent());
+                await Navigation.PushModalAsync(new HostEvent());
             }
             else
             {
-                errorLabel.Text = "Please enter information in all fields marked with a *";
+                errorLabel.Text = "Please Fill out All Fields with a *";
             }
         }
 	}

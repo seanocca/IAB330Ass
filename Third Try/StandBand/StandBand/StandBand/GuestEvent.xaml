@@ -4,29 +4,32 @@
              x:Class="StandBand.GuestEvent" >
     <ContentPage.Content>
         <StackLayout>
+
             <StackLayout>
-                <Label Text="Current Song:" Grid.Row="0" Grid.Column="0" FontSize="Micro"/>
-                <Label Text="Wonderwall" Grid.Row="0" Grid.Column="0" FontSize="Medium"/>
-                <Label Text="Oasis" Grid.Row="0" Grid.Column="0" FontSize="Micro"/>
+                <Label x:Name="event_name" FontSize="Large" TextColor="Blue" />
+                <Label Text="Current Song:" FontSize="Micro" />
+                <Label Text="Wonderwall" FontSize="Medium" />
+                <Label Text="Oasis" FontSize="Micro" />
             </StackLayout>
+
             <ScrollView>
-                <StackLayout>
-                    <Label Text="Piano Man" Grid.Row="0" Grid.Column="0" FontSize="Small" BackgroundColor="Green"/>
-                    <Label Text="Billy Joel" Grid.Row="0" Grid.Column="0" FontSize="Micro" />
-                    <Button Text="Vote" Grid.Row="0" Grid.Column="1" HorizontalOptions="End"/>
-                    <Label Text="8" Grid.Row="0" Grid.Column="1" FontSize="Micro" HorizontalOptions="EndAndExpand" />
-                    
-                    <Label Text="Living on a Prayer" Grid.Row="1" Grid.Column="0" FontSize="Small" />
-                    <Label Text="Jon Bovi" Grid.Row="1" Grid.Column="0" FontSize="Micro" />
-                    <Button Text="Vote" Grid.Row="1" Grid.Column="1" HorizontalOptions="End" />
-                    <Label Text="3" Grid.Row="1" Grid.Column="1" FontSize="Micro" HorizontalOptions="EndAndExpand"/>
-                    
-                    <Label Text="I Love Rock 'n' Roll" Grid.Row="2" Grid.Column="0" FontSize="Small" />
-                    <Label Text="Joan Jett" Grid.Row="2" Grid.Column="0" FontSize="Micro" />
-                    <Button Text="Vote" Grid.Row="2" Grid.Column="1" HorizontalOptions="End"/>
-                    <Label Text="0" Grid.Row="2" Grid.Column="1" FontSize="Micro" HorizontalOptions="EndAndExpand" />
-                </StackLayout>
+                <ListView x:Name="GuestList" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" x:Name="SongItem">
+                                    <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding Name}" />
+                                        <Label Text="{Binding Artist}" />
+                                    </StackLayout>
+                                    <Label Text="{Binding Votes}" HorizontalOptions="End" VerticalOptions="CenterAndExpand" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </ScrollView>
+            <Button Text="Leave Event" Clicked="OnGoBack"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

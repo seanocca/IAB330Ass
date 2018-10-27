@@ -1,7 +1,4 @@
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\StandBand.Android.dll
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\StandBand.Android.pdb
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\com.companyname.StandBand.apk
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\com.companyname.StandBand-Signed.apk
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\StandBand.Android.csprojAssemblyReference.cache
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\res.flag
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\App.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\LoginPage.xaml.g.cs
@@ -19,9 +16,13 @@ C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBan
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\HostEvent.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\GuestEvent.xaml.g.cs
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\StandBand.Android.csproj.CoreCompileInputs.cache
-C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\XamlC.stamp
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\StandBand.Android.dll
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\StandBand.Android.pdb
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\StandBand.Android.dll
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\StandBand.Android.pdb
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\com.companyname.StandBand.apk
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\bin\Debug\com.companyname.StandBand-Signed.apk
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\XamlC.stamp
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\android\bin\com.companyname.StandBand.apk
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\res\layout\tabbar.xml
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.Android\obj\Debug\MonoAndroid81\res\layout\toolbar.xml

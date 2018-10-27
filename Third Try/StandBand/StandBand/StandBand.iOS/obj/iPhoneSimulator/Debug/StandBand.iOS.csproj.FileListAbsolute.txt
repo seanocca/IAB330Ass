@@ -67,3 +67,4 @@ C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBan
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\StandBand.iOS.exe
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\StandBand.iOS.pdb
 C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\GuestEvent.xaml.g.cs
+C:\Users\seano\Documents\GitHub\IAB330Ass\Third Try\StandBand\StandBand\StandBand.iOS\obj\iPhoneSimulator\Debug\StandBand.iOS.csprojAssemblyReference.cache

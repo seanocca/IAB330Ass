@@ -4,29 +4,35 @@
              x:Class="StandBand.GuestJoin" Title="Join Event"  NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-            </Grid>
-        
+
             <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-                <Label Text="Find Events:" Grid.Row="0" Grid.Column="0" />
-                <Entry Placeholder="Search For Events" Grid.Row="0" Grid.Column="1"/>
-                <Label Text="First Event" Grid.Row="1" Grid.Column="0"/>
-                <Button Text="Join" Grid.Row="1" Grid.Column="1" Clicked="OnJoin"/>
-                <Label Text="First Event" Grid.Row="2" Grid.Column="0"/>
-                <Button Text="Join" Grid.Row="2" Grid.Column="1" Clicked="OnJoin"/>
-                <Label Text="First Event" Grid.Row="3" Grid.Column="0"/>
-                <Button Text="Join" Grid.Row="3" Grid.Column="1" Clicked="OnJoin"/>
+                <Label Text="Find Events:" />
+                <Entry Placeholder="Search" />
             </StackLayout>
+
+            <ScrollView>
+                <ListView x:Name="EventList" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Clicked="OnJoin" />
+                                </ViewCell.ContextActions>
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                                        <Label Text="{Binding Band_Name}" FontSize="Small" />
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding Location}" FontSize="Micro" />
+                                            <Label Text="{Binding Time}" FontSize="Micro"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                    <Button Text="Join" Clicked ="OnJoin" HorizontalOptions="End" VerticalOptions="CenterAndExpand"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
