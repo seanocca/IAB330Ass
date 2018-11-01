@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StandBand.GuestSettings" Title="User Settings">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection Title="User Details" CompressedLayout.IsHeadless="True">
+                        <EntryCell Label="Change Username:" x:Name="new_user" />
+                        <EntryCell Label="Change Email:" x:Name="new_email" />
+                    </TableSection>
+                    <TableSection Title="Payment Details" CompressedLayout.IsHeadless="True">
+                        <EntryCell Label="Card Number:" Placeholder="Card Number" x:Name="card_number" />
+                        <EntryCell Label="Expiry Date:" Placeholder="MM/YYYY" x:Name="card_expiry" />
+                        <EntryCell Label="CVV:" Placeholder="123" x:Name="card_cvv" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

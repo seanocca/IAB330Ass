@@ -9,154 +9,158 @@
     <Import_RootNamespace>StandBand</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\App.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Event.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Song.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)GuestEvent.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Event.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Song.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\GuestEvent.xaml.cs">
       <DependentUpon>GuestEvent.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)GuestHome.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\GuestHome.xaml.cs">
       <DependentUpon>GuestHome.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)GuestJoin.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\GuestJoin.xaml.cs">
       <DependentUpon>GuestJoin.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)GuestSettings.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\GuestSettings.xaml.cs">
       <DependentUpon>GuestSettings.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)GuestTabbedPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\GuestTabbedPage.xaml.cs">
       <DependentUpon>GuestTabbedPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)HostCreateNew.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HostCreateNew.xaml.cs">
       <DependentUpon>HostCreateNew.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)HostEvent.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HostEvent.xaml.cs">
       <DependentUpon>HostEvent.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)HostHome.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HostHome.xaml.cs">
       <DependentUpon>HostHome.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)HostSettings.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HostSettings.xaml.cs">
       <DependentUpon>HostSettings.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)HostTabbedPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HostTabbedPage.xaml.cs">
       <DependentUpon>HostTabbedPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)InstancePage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\InstancePage.xaml.cs">
       <DependentUpon>InstancePage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)LoginPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)PasswordPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\PasswordPage.xaml.cs">
       <DependentUpon>PasswordPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)SetList.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)SignUpPage.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SetList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\SignUpPage.xaml.cs">
       <DependentUpon>SignUpPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)LoginPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)PasswordPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\PasswordPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)InstancePage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\InstancePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SignUpPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\SignUpPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HostTabbedPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\HostTabbedPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GuestTabbedPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\GuestTabbedPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GuestHome.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\GuestHome.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GuestJoin.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\GuestJoin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GuestSettings.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\GuestSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HostHome.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\HostHome.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HostCreateNew.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\HostCreateNew.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HostSettings.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\HostSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HostEvent.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\HostEvent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GuestEvent.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\GuestEvent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Models\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
   </ItemGroup>
 </Project>

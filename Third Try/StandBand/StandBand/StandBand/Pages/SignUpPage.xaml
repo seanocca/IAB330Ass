@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StandBand.SignUpPage" Title="Register">
+    <ScrollView>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Padding="0">
+            <Label Text="Register" FontSize="Medium" TextColor="Blue" HorizontalOptions="Center" />
+            <Entry Placeholder="Username" x:Name="username" FontSize="Micro" />
+            <Entry Placeholder="Email Address" x:Name="email" FontSize="Micro" />
+            <Entry Placeholder="Confirm Email Address" x:Name="c_email" FontSize="Micro" />
+            <Entry Placeholder="Password" x:Name="password" FontSize="Micro" />
+            <Entry Placeholder="Confirm Password" x:Name="c_password" FontSize="Micro" />
+            <Button Text="Register" HorizontalOptions="Center" Clicked="OnRegister" FontSize="Micro" />
+            <Label x:Name="register_error" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
